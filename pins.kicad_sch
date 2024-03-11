@@ -5124,6 +5124,28 @@
 			)
 		)
 	)
+	(global_label "AUDIO_OUT_MUTE"
+		(shape input)
+		(at 100.33 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7df4dd2e-0364-43a0-ba95-1fac526050eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.2581 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Tx_Aud_Snd"
 		(shape input)
 		(at 180.34 44.45 0)
@@ -5159,28 +5181,6 @@
 		(uuid "80741fd4-f9e4-42b0-b57d-d58058a91a05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.2075 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RDY"
-		(shape input)
-		(at 100.33 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "991b6875-23be-4a3a-99a7-5af2993a5478")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7162 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

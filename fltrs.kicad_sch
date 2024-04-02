@@ -2963,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 160.02) (xy 158.75 163.195)
+			(xy 158.75 161.29) (xy 158.75 163.195)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 149.225) (xy 148.59 155.575)
+			(xy 148.59 149.225) (xy 148.59 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 160.655) (xy 148.59 163.195)
+			(xy 148.59 161.29) (xy 148.59 163.195)
 		)
 		(stroke
 			(width 0)
@@ -5451,10 +5451,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a41c410-cb4e-4830-aed3-22824ab465ba")
 		(property "Reference" "C26"
-			(at 121.92 172.8089 0)
+			(at 122.174 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5462,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 121.92 175.3489 0)
+			(at 122.174 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11951,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 158.75 154.94 0)
+		(at 158.75 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11961,7 +11960,7 @@
 		(fields_autoplaced yes)
 		(uuid "801efa27-0998-414c-bc53-502254a6405f")
 		(property "Reference" "#PWR082"
-			(at 158.75 158.75 0)
+			(at 158.75 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +11969,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 158.75 149.86 0)
+			(at 158.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +11977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 154.94 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +11986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 154.94 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +11995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 158.75 154.94 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +12653,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 157.48 0)
+		(at 158.75 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12663,7 +12662,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bc08d91-990d-4f1a-b1d5-9a59fc7b32bf")
 		(property "Reference" "R20"
-			(at 161.29 156.21 0)
+			(at 161.29 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +12671,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 161.29 158.75 0)
+			(at 161.29 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12690,7 +12689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12698,7 +12697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12707,7 +12706,7 @@
 			)
 		)
 		(property "MPN" "C2909337"
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +12715,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12724,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12733,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +12742,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,7 +12751,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +12760,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,7 +12769,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12779,7 +12778,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 158.75 157.48 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +13968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 148.59 158.115 0)
+		(at 148.59 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13978,7 +13977,7 @@
 		(fields_autoplaced yes)
 		(uuid "b464bdf3-b893-4209-896d-86d4c5122267")
 		(property "Reference" "R17"
-			(at 151.13 156.845 0)
+			(at 151.13 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13987,7 +13986,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 151.13 159.385 0)
+			(at 151.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +13995,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14005,7 +14004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14013,7 +14012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,7 +14021,7 @@
 			)
 		)
 		(property "MPN" "C2909337"
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14031,7 +14030,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14040,7 +14039,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14049,7 +14048,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14058,7 +14057,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14066,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14076,7 +14075,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14084,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14093,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 148.59 158.115 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14637,10 +14636,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c648612d-bffa-4205-a93f-a4b8788769ae")
 		(property "Reference" "C28"
-			(at 151.13 166.4589 0)
+			(at 150.876 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14649,7 +14647,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 151.13 168.9989 0)
+			(at 151.13 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,10 +15151,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3b3cd38-9544-449b-b196-7ecec4b1a246")
 		(property "Reference" "R21"
-			(at 161.29 167.005 0)
+			(at 161.29 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Micro17 - OpenRTX on a Module for ICOM radios")
-		(date "2024-04-04")
-		(rev "A")
+		(date "2024-09-10")
+		(rev "B")
 		(company "Wojciech SP5WWP, Mano ON6RF, Mutlu TA1MD et al.")
 		(comment 1 "M17 Project, OpenRTX")
 		(comment 2 "Mano ON6RF")
@@ -7399,6 +7399,73 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 121.92 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56849abf-cf3e-4cb4-aa57-284a6a0221fc")
+		(property "Reference" "#PWR027"
+			(at 125.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 118.11 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e15af0d-3ace-4cc9-979e-089913aab7ff")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
